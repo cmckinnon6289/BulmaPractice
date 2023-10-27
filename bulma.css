@@ -1,0 +1,53 @@
+:root {
+    --background-color: hsl(0, 0%, 91%);
+    --hover: hsl(217, 71%, 53%);
+    --active: hsl(204, 86%, 53%);
+}
+
+body {
+    background-color: var(--background-color);
+}
+
+.navbar-menu a {
+    font-weight: bold;
+}
+
+.navbar {
+    padding-left: 5%;
+}
+
+#main-content {
+    padding-left: 5%;
+    padding-top: 1%;
+}
+
+aside {
+    font-weight: bold;
+}
+
+.menu-list a.is-active {
+    color: hsl(204, 86%, 53%);
+    background-color: var(--background-color);
+}
+
+.menu-list a:hover {
+    background-color: var(--background-color);
+    color: var(--hover);
+}
+
+.menu-list li ul {
+    border-left: 1px solid hsl(0, 0%, 71%);
+}
+
+#admin-header {
+    background-image: linear-gradient(to right, hsl(217, 71%, 53%), hsl(171, 100%, 41%));
+    padding: 16px;
+}
+
+#admin-header div {
+    color: white;
+}
+
+.subtitle {
+    font-weight: lighter;
+}
